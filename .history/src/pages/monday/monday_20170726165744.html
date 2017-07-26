@@ -22,11 +22,13 @@
   <ion-card *ngFor="let exercise of exercises">
     <ion-grid>
       <ion-row>
-        <ion-col col-10>{{exercise.name}}</ion-col>
-        <ion-col col-1>{{exercise.weight}}</ion-col>
-        <ion-col col-1>{{exercise.unit}}</ion-col>
+        <ion-col col-8>{{exercise.name}}</ion-col>
+        <ion-col col-3>This column will take 6 columns</ion-col>
       </ion-row>
     </ion-grid>
+    
+    {{exercise.weight}}
+    {{exercise.unit}}
   </ion-card>
 
   <ion-fab right bottom>

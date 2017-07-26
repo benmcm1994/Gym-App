@@ -20,16 +20,13 @@
   <h6>Back & biceps</h6>
 
   <ion-card *ngFor="let exercise of exercises">
-    <ion-grid>
-      <ion-row>
-        <ion-col col-10>{{exercise.name}}</ion-col>
-        <ion-col col-1>{{exercise.weight}}</ion-col>
-        <ion-col col-1>{{exercise.unit}}</ion-col>
-      </ion-row>
-    </ion-grid>
+
+    {{exercise.name}}
+    {{exercise.weight}}
+    {{exercise.unit}}
   </ion-card>
 
   <ion-fab right bottom>
-    <button ion-fab side="right" color="icons2"><ion-icon name="add"></ion-icon></button>
+    <button ion-fab side="right" color="icons2"><ion-icon name="plus"></button>
   </ion-fab>
 </ion-content>
