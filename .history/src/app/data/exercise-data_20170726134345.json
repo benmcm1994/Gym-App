@@ -1,0 +1,26 @@
+[
+    {
+         "name": "Bicep Curl",
+         "weight": "15",
+         "unit": "KG",
+         "model": "i3",
+         "carImage": "assets/img/bmw-i3.jpg",
+         "manufacturerLogo": "assets/img/BMW-logo.png"
+    },
+    {
+        "id": "50a42ffe-900e-440d-8007-e8e1e0666fae",
+        "licensePlate": "S-PB1013",
+        "manufacturer": "Mitsubishi",
+        "model": "i MiEV",
+        "carImage": "assets/img/mitsubishi-miev.jpg",
+        "manufacturerLogo": "assets/img/Mitsubishi-logo.png"
+    },
+    {
+        "id": "570f33d7-76d9-4f28-9b79-7013782ffe7c",
+        "licensePlate": "S-PB1013",
+        "manufacturer": "Mitsubishi",
+        "model": "i MiEV",
+        "carImage": "assets/img/mitsubishi-miev.jpg",
+        "manufacturerLogo": "assets/img/Mitsubishi-logo.png"
+    }
+]

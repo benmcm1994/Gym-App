@@ -1,0 +1,17 @@
+import { Injectable } from '@angular/core';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
+
+import { ExerciseModel } from '../../app/models/exercise-model';
+
+@Injectable()
+export class ExerciseServiceProvider {
+
+      // tslint:disable-next-line:no-unused-variable
+      private exerciseURL = "assets/data/vehicles.json";
+
+  constructor(public http: Http) {
+    console.log('Hello ExerciseServiceProvider Provider');
+  }
+
+}

@@ -1,0 +1,12 @@
+[
+    {
+         "name": "Bicep Curl",
+         "weight": "15",
+         "unit": "KG"
+    },
+    {
+         "name": "Cable Curl",
+         "weight": "25",
+         "unit": "KG"
+    }
+]

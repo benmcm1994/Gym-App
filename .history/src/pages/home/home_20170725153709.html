@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+    <button ion-button icon-only>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="home"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Day of the week: {{Day}}</h2>
+  <h3>Training: {{TargetMuscleGroup}} today</h3>
+  <ion-list>
+    <ion-item>
+      Dumbell bicep curls
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      Barbell curls
+      <button ion-button></button>
+    </ion-item>
+    <ion-item>
+      Hammer curls
+      <button ion-button></button>
+    </ion-item>
+  </ion-list>
+</ion-content>
