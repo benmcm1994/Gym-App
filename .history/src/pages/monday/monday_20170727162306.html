@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+    <button ion-button icon-only>
+      <ion-icon name="menu" color="black"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="home" color="black"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Monday</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <h2><ion-icon name="thumbs-up" color="icons2"></ion-icon> & <ion-icon name="thumbs-down" color="icons2"></ion-icon></h2>
+  <h6>Back & biceps</h6>
+
+  <ion-card *ngFor="let exercise of exercises">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-5><ion-label>{{exercise.name}}</ion-label></ion-col>
+        <ion-col col-1><button ion-button>+</button></ion-col>
+        <ion-col col-2><ion-input type="number" placeholder="{{exercise.weight}}"></ion-input></ion-col>
+        <ion-col col-1><button ion-button>-</button></ion-col>
+        <ion-col col-2><ion-label>{{exercise.unit}}</ion-label></ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+  <ion-fab right bottom>
+    <button ion-fab side="right" color="icons2" (click)="addExercise()"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+</ion-content>
